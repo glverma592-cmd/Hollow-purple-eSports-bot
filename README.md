@@ -31,3 +31,9 @@ python test_bot.py   # 7/7 OK
 ```
 
 Repo: https://github.com/glverma592-cmd/Hollow-purple-eSports-bot
+
+## Hosting (BotKeep / Render)
+- Repository: `glverma592-cmd/Hollow-purple-eSports-bot`, Branch: `main`
+- Install: `pip install -r requirements.txt`
+- Start: `python main.py`
+- Env: `DISCORD_BOT_TOKEN`, `WELCOME_CHANNEL_ID=1559886513423257610`, `VERIFY_ROLE_ID=0`, `REQUIRE_VERIFY=0`
