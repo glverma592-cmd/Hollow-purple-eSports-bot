@@ -91,7 +91,6 @@ async def on_member_join(member: discord.Member):
         await _fallback_post(member, "DM nahi ja paya")
 
 async def _fallback_post(member: discord.Member, reason: str = ""):
-    # purana naam bhi rakho compatibility ke liye
     if not WELCOME_CHANNEL_ID: return
     ch=member.guild.get_channel(WELCOME_CHANNEL_ID)
     if ch is None: return
@@ -99,7 +98,6 @@ async def _fallback_post(member: discord.Member, reason: str = ""):
     try: await ch.send(text, view=VerifyButton() if REQUIRE_VERIFY else None)
     except Exception: pass
 
-# alias (purani calls ke liye)
 _fallback = _fallback_post
 
 # ---- SLASH COMMANDS ----
