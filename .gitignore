@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 result.json
 .venv/
+__pycache__/
