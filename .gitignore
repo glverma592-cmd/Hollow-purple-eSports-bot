@@ -6,3 +6,4 @@ result.json
 .venv/
 __pycache__/
 bot/autoroles.json
+bot/noprefix.json
