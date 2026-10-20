@@ -8,3 +8,4 @@ __pycache__/
 bot/autoroles.json
 bot/noprefix.json
 bot/giveaways.json
+bot/afk.json
