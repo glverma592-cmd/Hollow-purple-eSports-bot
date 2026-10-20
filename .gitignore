@@ -7,3 +7,4 @@ result.json
 __pycache__/
 bot/autoroles.json
 bot/noprefix.json
+bot/giveaways.json
